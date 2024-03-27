@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_locality">
+        <item>Select Area</item>
+        <item>Bantwal</item>
+        <item>Farangipet</item>
+        <item>Adyar</item>
+        <item>Padil</item>
+        <item>Pumpwell</item>
+        <item>Kankanady</item>
+        <item>Hampankatta</item>
+        <item>Nantoor</item>
+        <item>Urwa Store</item>
+        <item>Surathkal</item>
+        <item>Kadri</item>
+    </string-array>
+
+
+</resources>

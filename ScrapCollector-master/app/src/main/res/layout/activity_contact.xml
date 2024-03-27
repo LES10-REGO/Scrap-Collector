@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E49B5F">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="247dp"
+        android:text="BACK" />
+
+    <TextView
+        android:id="@+id/contact_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:padding="20dp"
+        android:text="Contact Number:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/unique_code_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:text="Unique Code:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/contact_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:width="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="30dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/unique_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_alignStart="@+id/contact"
+        android:layout_alignLeft="@+id/contact"
+        android:layout_marginTop="51dp"
+        android:width="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="30dp"
+        android:textSize="20dp" />
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg_gradient"
+
+    android:orientation="vertical"
+    tools:context=".PostGarbageDetails">
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="right"
+        android:text="Log Out"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="16dp"
+        android:hint="NAME"
+
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+
+        android:hint="FLAT NO/BLDG NAME"
+        android:lines="3"
+        android:maxLines="3"
+
+        android:padding="10dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spn_locality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et_pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="PINCODE"
+
+        android:inputType="number"
+        android:padding="10dp" />
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="CITY"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="#2E7D32"
+        android:padding="10dp"
+        /> -->
+    <EditText
+        android:id="@+id/et_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="CONTACT NO"
+
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Type of waste"
+        android:textSize="20dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        android:padding="10dp"
+
+        >
+
+        <CheckBox
+            android:id="@+id/chk_plastic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLASTIC"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/chk_paper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAPER"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/chk_metal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="METAL"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Approx Quantity (in kgs) "
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/postDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Go" />
+
+
+</LinearLayout>

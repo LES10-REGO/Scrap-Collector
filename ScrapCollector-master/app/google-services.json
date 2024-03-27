@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470370311473",
+    "project_id": "scrapcollector-dbe66",
+    "storage_bucket": "scrapcollector-dbe66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470370311473:android:56bcf1825c61bf9aef2410",
+        "android_client_info": {
+          "package_name": "com.example.scrapcollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470370311473-6ppmjof7a54pp2qh7kc28lrqaou94g7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh2L6nZbvJhdSRhY3BFGFWhPGAJbMkvbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470370311473-6ppmjof7a54pp2qh7kc28lrqaou94g7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
